@@ -1,0 +1,7 @@
+<?php
+	session_id();
+	session_start();
+	$db_connect = mysql_connect("localhost","root","") or die(mysql_error());
+	$db_select = mysql_select_db("shop") or die(mysql_error());
+	include 'function.php';
+?>

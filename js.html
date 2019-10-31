@@ -1,0 +1,39 @@
+<html>
+<head>
+	<script type="text/javascript">
+		var p1 = "bewareoftheenigmagroupunderground";
+	var p2 = "betterofftohacktherealownersboxes";
+	var p3 = "wassaidbyadudepseudodpsychomarine";
+
+	var confirmPass = "nigeria1234";
+
+	var chk0 = 0;
+	var pass = "";
+	var base = "";
+
+
+	for ( a = 0; a < p1.length; ++a )
+	{
+		var blah = confirmPass.substring ( chk0, chk0 + 1 );
+		console.log(blah);
+		var chk1 = p1.substring ( a, a + 1 );
+		console.log(chk1);
+		var chk2 = p2.substring ( a, a + 1 );
+		console.log(chk2);
+		var chk3 = p3.substring ( a, a + 1 );
+		console.log(chk3);
+
+ 		if ( chk1 == chk3 ) { if ( chk1 == blah) { base = base + chk1; } else { break; } chk0++; }
+ 		console.log(base);
+		if ( chk2 == chk1 ) { if ( chk2 == blah) { base = base + chk2; } else { break; } chk0++; }
+		console.log(base);
+		if ( chk3 == chk2 ) { if ( chk3 == blah) { base = base + chk3; } else { break; } chk0++; }
+		console.log(base);
+		( p1.length == a + 1 ) ? pass = base : false;
+		console.log(p1);
+	}
+	</script>
+</head>
+<body>
+</body>
+</html>
